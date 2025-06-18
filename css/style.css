@@ -1,0 +1,955 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body * {
+  font-size: 1.6rem;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+
+  width: 100%;
+  margin: 0 auto;
+}
+
+header,
+section {
+  padding: 3rem;
+}
+
+header {
+  width: 100%;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style: none;
+}
+
+li#logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  width: max-content;
+}
+
+.logotipo {
+  width: 4.5rem;
+  height: 4rem;
+}
+
+#logotipo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: dodgerblue;
+  color: white;
+
+  font-size: 2rem;
+
+  width: 1.5rem;
+  height: 1.5rem;
+
+  padding: 1.5rem;
+
+  border-radius: 50%;
+}
+
+.span {
+  display: block;
+
+  width: 165px;
+
+  font-weight: 800;
+}
+
+.spanBlue {
+  color: dodgerblue;
+  font-weight: 600;
+}
+
+#pages {
+  display: flex;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.BGreen {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  background: green;
+  color: white;
+
+  font-weight: 600;
+
+  padding: 1rem;
+
+  border: none;
+  border-radius: 6px;
+}
+
+#hero {
+  margin-top: 10rem;
+  margin: 6rem;
+}
+
+.tag {
+  margin-top: 10rem;
+  width: max-content;
+  background: aliceblue;
+  gap: 1rem;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+.Blue {
+  color: dodgerblue;
+  font-size: 5rem;
+}
+
+h1 {
+  font-size: 5rem;
+  width: 50rem;
+}
+
+.introduction {
+  margin-top: 1rem;
+  font-size: 2rem;
+  width: 50rem;
+  color: gray;
+}
+
+#TwoButtons {
+  margin-top: 2rem;
+}
+
+.BBlue {
+  background: dodgerblue;
+  color: white;
+
+  font-weight: 600;
+
+  padding: 1rem;
+
+  border: none;
+  border-radius: 6px;
+}
+.BWhite {
+  background: aliceblue;
+  color: black;
+
+  font-weight: 600;
+
+  padding: 1rem;
+
+  border: none;
+  border-radius: 6px;
+}
+
+.certification {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.shield {
+  color: green;
+  width: 1.9rem;
+  height: 1.9rem;
+}
+
+.award {
+  color: dodgerblue;
+  width: 1.9rem;
+  height: 1.9rem;
+}
+
+.star {
+  color: green;
+  width: 1.9rem;
+  height: 1.9rem;
+}
+
+#certifications {
+  display: flex;
+  font-size: 0.1rem;
+  margin-top: 1rem;
+  gap: 2rem;
+  width: max-content;
+  color: gray;
+}
+
+#rating {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  background: aliceblue;
+  width: max-content;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.boy {
+  margin-top: 3rem;
+  width: 42rem;
+  border-radius: 20px;
+}
+#hero {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+#second {
+  margin-top: 30rem;
+  scroll-margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  margin-top: 1rem;
+  font-size: 4rem;
+}
+
+.services {
+  text-align: center;
+}
+
+.about {
+  margin: 0 auto;
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 2rem;
+  color: gray;
+  overflow-wrap: break-word;
+}
+
+#firstbox {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+#secondbox {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.box {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  text-align: left;
+  background-color: #f0f8ff;
+  border: 1px solid #6cacd654;
+  border-radius: 10px;
+  margin: 2rem;
+  margin-top: 6rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.buttonbox {
+  border: 1px solid #1b3b5054;
+  border-radius: 6px;
+  padding: 0.7rem;
+  background: none;
+}
+
+#portfolio {
+  text-align: center;
+  scroll-margin-top: 6rem;
+  margin-top: 21rem;
+  justify-content: center;
+}
+
+.title {
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+.color {
+  margin-top: 0.5rem;
+  color: gray;
+}
+
+h3 {
+  font-size: 4rem;
+}
+
+#testimony {
+  scroll-margin-top: 6rem;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  gap: 2rem;
+}
+
+.tooth {
+  width: 35rem;
+  border-radius: 20px;
+}
+
+.testimony {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+h4 {
+  margin-top: 1rem;
+  font-size: 4rem;
+}
+
+.satisfaction {
+  margin-top: 2rem;
+  color: gray;
+  font-size: 2rem;
+}
+
+#box2 {
+  justify-content: center;
+}
+
+.box2 {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  padding: 2rem;
+  text-align: left;
+  background-color: #f0f8ff;
+  border: 1px solid #6cacd654;
+  border-radius: 10px;
+  margin: 2rem;
+  margin-top: 6rem;
+}
+
+.analysis {
+  color: gray;
+  font-style: italic;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.process {
+  color: dodgerblue;
+}
+
+h5 {
+  font-size: 4rem;
+}
+
+#contact {
+  scroll-margin-top: 6rem;
+}
+
+#contacts {
+  justify-content: center;
+}
+
+.contacts {
+  margin-top: 20rem;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.yourcontact {
+  margin-top: 5rem;
+  padding: 2rem;
+  width: 50rem;
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: #f0f8ff;
+  border-radius: 1rem;
+  border: 0.1rem solid #6cacd654;
+}
+
+.box3 {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.yourinformation {
+  margin-top: 2rem;
+  display: flex;
+
+  border: 0.1rem solid #6cacd654;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.email {
+  text-align: left;
+  justify-content: left;
+  margin-top: 1rem;
+  border: 0.1rem solid #6cacd654;
+  padding: 0.5rem;
+  width: 41.8rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+}
+
+.yourmessage {
+  margin-top: 1rem;
+  width: 41.8rem;
+  padding: 0.5rem;
+  height: 10rem;
+  border: 0.1rem solid #6cacd654;
+  border-radius: 0.5rem;
+  font-family: "Inter", sans-serif;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+.information {
+  margin-top: 5rem;
+  width: 50rem;
+  border: 0.1rem solid #6cacd654;
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: #f0f8ff;
+}
+
+.send {
+  margin-top: 1rem;
+  background: dodgerblue;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+.infocontact {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.colors {
+  color: dodgerblue;
+}
+
+.firsttext {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  word-break: break-all;
+}
+
+.map {
+  margin-top: 2rem;
+}
+
+.secondtext {
+  margin-top: 0.5rem;
+  color: gray;
+  font-size: 1.6rem;
+}
+
+footer {
+  margin-top: 20rem;
+  background: rgb(5, 26, 48);
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  text-align: left;
+  gap: 20rem;
+}
+
+.right {
+  justify-content: right;
+}
+
+.left {
+  justify-content: left;
+  align-items: end;
+}
+
+.clinic {
+  color: white;
+  font-weight: 800;
+}
+
+.footer {
+  color: gray;
+  margin-top: 1rem;
+  width: 25rem;
+  font-size: 1.5rem;
+}
+
+.end {
+  display: flex;
+  gap: 5rem;
+}
+
+.titles {
+  color: white;
+  font-weight: 600;
+}
+
+.services2 {
+  color: gray;
+  flex-direction: column;
+  width: max-content;
+  align-items: start;
+}
+
+.services3 {
+  color: gray;
+  width: max-content;
+  flex-direction: column;
+  align-items: start;
+}
+
+.social {
+  color: white;
+  font-weight: 600;
+  flex-direction: column;
+  align-items: start;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.socials {
+  color: gray;
+  width: 1.9rem;
+  height: 1.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.socialmedia {
+  margin-top: 1rem;
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 0.9rem;
+  border-radius: 1rem;
+}
+
+.WhatsApp {
+  margin-top: 3rem;
+  padding: 1rem;
+  color: white;
+  background: green;
+  border: none;
+  border-radius: 2rem;
+}
+
+.C {
+  background: rgb(5, 26, 48);
+  color: gray;
+  display: flex;
+  justify-content: center;
+  padding: 8rem;
+  border-top: rgba(128, 128, 128, 0.301) solid 0.1rem;
+}
+
+.whatsappicon {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+@media (max-width: 1200px) {
+  #hero {
+    gap: 2rem;
+  }
+
+  .boy {
+    width: 35rem;
+  }
+
+  h1,
+  .introduction {
+    width: 40rem;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3rem 2rem;
+  }
+
+  .end {
+    gap: 3rem;
+  }
+
+  .right,
+  .left {
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer,
+  .services2,
+  .services3 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  #hero {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .tag,
+  #certifications,
+  #rating {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1,
+  .introduction {
+    width: 100%;
+    text-align: center;
+  }
+
+  #TwoButtons {
+    justify-content: center;
+  }
+
+  .images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tooth {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .box {
+    width: 25rem;
+  }
+
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .yourcontact {
+    width: 100%;
+  }
+
+  .box3 {
+    flex-direction: column;
+  }
+
+  .yourinformation,
+  .email,
+  .yourmessage {
+    width: 100%;
+  }
+
+  .map {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3rem 2rem;
+  }
+
+  .end {
+    gap: 3rem;
+  }
+
+  .right,
+  .left {
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer,
+  .services2,
+  .services3 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+
+  #pages {
+    order: 3;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 6px;
+    justify-content: center;
+    gap: 1rem;
+    overflow-x: auto;
+  }
+
+  #second,
+  #portfolio,
+  #testimony,
+  #contact {
+    scroll-margin-top: 13rem;
+  }
+
+  .boy {
+    width: 30rem;
+  }
+
+  .firstbox,
+  .secondbox {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tooth {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .yourcontact {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .box3 {
+    flex-direction: column;
+  }
+
+  .yourinformation,
+  .email,
+  .yourmessage {
+    width: 50%;
+  }
+
+  .map {
+    width: 100%;
+    height: 25rem;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3rem 2rem;
+  }
+
+  .end {
+    gap: 3rem;
+  }
+
+  .right,
+  .left {
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer,
+  .services2,
+  .services3 {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  #second,
+  #portfolio,
+  #testimony,
+  #contact {
+    scroll-margin-top: 15rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .Blue {
+    font-size: 3.5rem;
+  }
+
+  .introduction {
+    font-size: 1.6rem;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-size: 3rem;
+  }
+
+  .firstbox {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about,
+  .satisfaction {
+    width: 100%;
+    font-size: 1.6rem;
+  }
+
+  .box {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  #box2 {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .box2 {
+    padding: 1.2rem;
+    margin: 0 0.2rem;
+  }
+
+  .box2 div:first-child {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .analysis {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+  }
+
+  #firstbox,
+  #secondbox {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .name {
+    font-size: 1.4rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .process {
+    font-size: 1.2rem;
+  }
+  .boy {
+    width: 100%;
+  }
+
+  #certifications {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .yourcontact,
+  .information {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .map {
+    height: 180px;
+    padding: 0 10px;
+  }
+
+  .end {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  #second,
+  #portfolio,
+  #testimony,
+  #contact {
+    scroll-margin-top: 15rem;
+  }
+
+  .box,
+  #firstbox,
+  #secondbox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tooth {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  #box2,
+  .box2 {
+    margin-top: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+}
